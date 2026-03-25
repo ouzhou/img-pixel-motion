@@ -411,6 +411,9 @@ function App() {
       >
         GitHub
       </a>
+      <a className="inspire-link" href="https://linear.app/next" target="_blank" rel="noopener noreferrer">
+        Inspire
+      </a>
       <div className="canvas-host">
         <canvas
           ref={canvasRef}

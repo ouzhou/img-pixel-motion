@@ -79,3 +79,17 @@
   font-size: 12px;
   border-radius: 6px;
 }
+
+.inspire-link {
+  position: fixed;
+  left: 86px;
+  bottom: 16px;
+  z-index: 10;
+  border: 1px solid #cfcfcf;
+  background: rgba(255, 255, 255, 0.96);
+  color: #111111;
+  text-decoration: none;
+  padding: 6px 10px;
+  font-size: 12px;
+  border-radius: 6px;
+}
