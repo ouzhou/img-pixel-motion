@@ -403,6 +403,14 @@ function App() {
         </div>
         <div ref={paneHostRef} className="pane-host" style={{ display: paneOpen ? 'block' : 'none' }} />
       </section>
+      <a
+        className="github-link"
+        href="https://github.com/ouzhou/img-pixel-motion"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub
+      </a>
       <div className="canvas-host">
         <canvas
           ref={canvasRef}
