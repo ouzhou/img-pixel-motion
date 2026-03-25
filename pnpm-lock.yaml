@@ -8,12 +8,18 @@ importers:
 
   .:
     dependencies:
+      q5:
+        specifier: ^4.4.2
+        version: 4.4.2
       react:
         specifier: ^18.3.1
         version: 18.3.1
       react-dom:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
+      tweakpane:
+        specifier: ^4.0.5
+        version: 4.0.5
     devDependencies:
       '@eslint/js':
         specifier: ^9.9.0
@@ -920,6 +926,9 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
+  q5@4.4.2:
+    resolution: {integrity: sha512-fEAYJPc/lUr9KVkRUL8vUqeXOYMve7Wfh+LJe9sR7KOw/iqcsYpBCimWthN2gJOEQfAMe8qz3GRmPE4bvJtgNQ==}
+
   react-dom@18.3.1:
     resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
@@ -983,6 +992,9 @@ packages:
     engines: {node: '>=18.12'}
     peerDependencies:
       typescript: '>=4.8.4'
+
+  tweakpane@4.0.5:
+    resolution: {integrity: sha512-rxEXdSI+ArlG1RyO6FghC4ZUX8JkEfz8F3v1JuteXSV0pEtHJzyo07fcDG+NsJfN5L39kSbCYbB9cBGHyuI/tQ==}
 
   type-check@0.4.0:
     resolution: {integrity: sha512-XleUoc9uwGXqjWwXaUTZAmzMcFZ5858QA2vvx1Ur5xIcixXIP+8LnFDgRplU30us6teqdlskFfu+ae4K79Ooew==}
@@ -1868,6 +1880,8 @@ snapshots:
 
   punycode@2.3.1: {}
 
+  q5@4.4.2: {}
+
   react-dom@18.3.1(react@18.3.1):
     dependencies:
       loose-envify: 1.4.0
@@ -1943,6 +1957,8 @@ snapshots:
   ts-api-utils@2.5.0(typescript@5.9.3):
     dependencies:
       typescript: 5.9.3
+
+  tweakpane@4.0.5: {}
 
   type-check@0.4.0:
     dependencies:
